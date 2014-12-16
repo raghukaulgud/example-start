@@ -39,6 +39,7 @@ git log --oneline --decorate
 git log --oneline -- Notes.txt
 git log --oneline --decorate --stat -- Notes.txt
 git log --all -5
+git log --graph
 
 git blame
 git blame -- Notes.txt
@@ -53,7 +54,10 @@ git remote rm originssh
 
 git branch
 git branch -v
+git branch -r
 
+# deleting branch
+git branch -d develop 
 
 git config alias.l "diff --oneline --decorate --stat"
 git l
@@ -62,10 +66,12 @@ git push origin master
 git push originssh master
 git push origin master
 git push -u origin master
-
+git push -u origin develop
 
 git branch develop
 git branch -v
 
 git checkout develop 
+
+git prune
 

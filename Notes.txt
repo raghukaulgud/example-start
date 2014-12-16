@@ -38,6 +38,7 @@ git log --author "ragho*"
 git log --oneline --decorate
 git log --oneline -- Notes.txt
 git log --oneline --decorate --stat -- Notes.txt
+git log --all -5
 
 git blame
 git blame -- Notes.txt

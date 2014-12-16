@@ -1,4 +1,4 @@
-# My GIT Notes
+# My GIT Notes Dec 16
 git init example-start
 
 git status

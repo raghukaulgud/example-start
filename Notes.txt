@@ -1,0 +1,14 @@
+git init example-start
+git status
+git config --list
+git config user.email
+git config user.name
+git config --unset --global user.name
+git config --unset --global user.email
+git config user.name "user"
+git config user.email "email"
+git config --global color.ui auto
+# for *nix
+git config --global core.autocrlf input   
+# for windows
+git config --global core.autocrlf true

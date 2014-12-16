@@ -1,5 +1,8 @@
 git init example-start
+
 git status
+git status -u
+
 git config --list
 git config user.email
 git config user.name
@@ -42,9 +45,16 @@ git blame -- Notes.txt
 git remote add origin https://github.com/raghukaulgud/example-start.git
 git remote
 git remote -v
+git remote set-url origin git@github.com:raghukaulgud/example-start.git
+git remote rm originssh
+
 
 git branch
 git branch -v
+
+
+git config alias.l "diff --oneline --decorate --stat"
+git l
 
 git push origin master
 git push originssh master

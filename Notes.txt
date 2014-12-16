@@ -8,8 +8,10 @@ git config --unset --global user.email
 git config user.name "user"
 git config user.email "email"
 git config --global color.ui auto
+
 # for *nix
 git config --global core.autocrlf input   
+
 # for windows
 git config --global core.autocrlf true
 
@@ -21,3 +23,28 @@ git diff Notes.txt
 git diff --staged
 git diff --color-words
 git diff --staged --color-words
+git diff HEAD
+
+git log
+git log --oneline
+git log --format=raw
+git log --oneline --patch
+git log --stat
+git log --author "ragho*"
+git log --oneline --decorate
+git log --oneline -- Notes.txt
+git log --oneline --decorate --stat -- Notes.txt
+
+git blame
+git blame -- Notes.txt
+
+
+git remote add origin https://github.com/raghukaulgud/example-start.git
+git remote
+git remote -v
+
+git branch
+git branch -v
+
+git push origin master
+git push originssh master

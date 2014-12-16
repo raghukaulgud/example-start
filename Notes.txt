@@ -62,3 +62,10 @@ git push origin master
 git push originssh master
 git push origin master
 git push -u origin master
+
+
+git branch develop
+git branch -v
+
+git checkout develop 
+

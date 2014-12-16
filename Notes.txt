@@ -48,9 +48,6 @@ git remote -v
 git remote set-url origin git@github.com:raghukaulgud/example-start.git
 git remote rm originssh
 
-git push origin master
-git push -u origin master
-
 
 git branch
 git branch -v
@@ -61,3 +58,5 @@ git l
 
 git push origin master
 git push originssh master
+git push origin master
+git push -u origin master
